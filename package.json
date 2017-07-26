@@ -1,0 +1,20 @@
+{
+  "name": "nucleus-cli",
+  "version": "0.0.1",
+  "description": "command line tool for nucleus.world projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "philip cleaver",
+  "license": "ISC",
+  "bin": {
+    "snippet": "./index.js"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.11.0",
+    "write-json-file": "^2.2.0"
+  }
+}
